@@ -1,0 +1,311 @@
+ABORTI	Abort Interrupt 
+ABS_ACC	Absolute Value of Accumulator 
+ABSTC_ACC	Absolute Value of Accumulator and Load TC 
+ADD_ACC_imm_16bit_leftshift_imm_0_15	Add Value to Accumulator
+ADD_ACC_loc16_leftshift_T	Add Value to Accumulator
+ADD_ACC_loc16_leftshift_imm_0_16	Add Value to Accumulator 
+ADD_AX_loc16	Add Value to AX 
+ADD_loc16_AX	Add AX to Specified Location 
+ADDB_SP_imm_7bit	Add 7bit Constant to Stack Pointer 
+ADDB_XARn_imm_7bit	Add 7bit Constant to Auxiliary Register
+ADDCL_ACC_loc32	Add 32bit Value Plus Carry to Accumulator
+ADDCU_ACC_loc16	Add Unsigned Value Plus Carry to Accumulator
+ADDL_ACC_loc32	Add 32bit Value to Accumulator 
+ADDL_ACC_P_leftshift_PM	Add Shifted P to Accumulator 
+ADDL_loc32_ACC	Add Accumulator to Specified Location
+ADDU_ACC_loc16	Add Unsigned Value to Accumulator 
+ADDUL_P_loc32	Add 32bit Unsigned Value to P 
+ADDUL_ACC_loc32	Add 32bit Unsigned Value to Accumulator 
+ADRK_imm_8bit	Add to Current Auxiliary Register 
+AND_ACC_imm_16bit_leftshift_imm_0_16	Description 
+AND_ACC_loc16	Bitwise AND
+AND_AX_loc16_imm_16bit	Bitwise AND
+AND_IER_imm_16bit	Bitwise AND to Disable Specified CPU Interrupts
+AND_IFR_imm_16bit	Bitwise AND to Clear Pending CPU Interrupts
+AND_loc16_AX	Bitwise AND 
+AND_AX_loc16	Bitwise AND 
+AND_loc16_imm_16bitSigned	Bitwise AND
+ANDB_AX_imm_8bit	Bitwise AND 8bit Value 
+ASP	Align Stack Pointer
+ASR_AX_imm_1_16	Arithmetic Shift Right 
+ASR_AX_T	Arithmetic Shift Right 
+ASR64_ACC_colon_P_imm_1_16	Arithmetic Shift Right of 64bit Value 
+ASR64_ACC_colon_P_T	Arithmetic Shift Right of 64bit Value
+ASRL_ACC_T	Arithmetic Shift Right of Accumulator 
+B_16bitOffset_COND	Branch
+BANZ_16bitOffset_ARn	Branch if Auxiliary Register Not Equal to Zero
+BAR_16bitOffset_ARn_ARm_EQ_slash_NEQ	Branch on Auxiliary Register Comparison 
+BF_16bitOffset_COND	Branch Fast 
+C27MAP	Set the M0M1MAP Bit 
+C27OBJ	Clear the Objmode Bit 
+C28ADDR	Clear the AMODE Status Bit 
+C28MAP	Set the M0M1MAP Bit 
+C28OBJ	Set the Objmode Bit 
+CLRC_AMODE	Clear the AMODE Bit 
+CLRC_M0M1MAP	Clear the M0M1MAP Bit 
+CLRC_Objmode	Clear the Objmode Bit 
+CLRC_OVC	Clear Overflow Counter 
+CLRC_XF	Clear XF Status Bit 
+CLRC_Mode	Clear Status Bits 
+CMP_AX_loc16	Compare
+CMP_loc16_imm_16bitSigned	Compare
+CMP64_ACC_colon_P	Compare 64bit Value 
+CMPB_AX_imm_8bit	Compare 8bit Value
+CMPL_ACC_loc32	Compare 32bit Value
+CMPL_ACC_P_leftshift_PM	Compare 32bit Value 
+CMPR_0_slash_1_slash_2_slash_3	Compare Auxiliary Registers
+CSB_ACC	Count Sign Bits 
+DEC_loc16	Decrement by 1 
+DINT	Disable Maskable Interrupts (Set INTM Bit) 
+DMAC_ACC_colon_P_loc32_pointer_XAR7_slash_plus_plus	16Bit Dual Multiply and Accumulate 
+DMOV_loc16	Data Move Contents of 16bit Location
+EALLOW	Enable Write Access to Protected Space
+EDIS	Disable Write Access to Protected Registers 
+EINT	Enable Maskable Interrupts (Clear INTM Bit) 
+ESTOP0	Emulation Stop 0
+ESTOP1	Emulation Stop 1
+FFC_XAR7_22bit	Fast Function Call
+FLIP_AX	Flip Order of Bits in AX Register 
+IACK_imm_16bit	Interrupt Acknowledge
+IDLE	Put Processor in Idle Mode
+IMACL_P_loc32_pointer_XAR7_slash_plus_plus	Signed 32 X 32Bit Multiply and Accumulate (Lower Half) 
+IMPYAL_P_XT_loc32	Signed 32Bit Multiply (Lower Half) and Add Previous P
+IMPYL_ACC_XT_loc32	Signed 32 X 32Bit Multiply (Lower Half) 
+IMPYL_P_XT_loc32	Signed 32 X 32Bit Multiply (Lower Half) 
+IMPYSL_P_XT_loc32	Signed 32Bit Multiply (Low Half) and Subtract P 
+IMPYXUL_P_XT_loc32	Signed 32 X Unsigned 32Bit Multiply (Lower Half) 
+IN_loc16_pointer_index_PA	Input Data From Port
+INC_loc16	Increment by 1
+INTR	Emulate Hardware Interrupt 
+IRET	Interrupt Return
+LB_pointer_XAR7	Long Indirect Branch 
+LB_22bit	Long Branch
+LC_pointer_XAR7	Long Indirect Call 
+LC_22bit	Long Call
+LCR_imm_22bit	Long Call Using RPC 
+LCR_pointer_XARn	Long Indirect Call Using RPC
+LOOPNZ_loc16_imm_16bit	Loop While Not Zero 
+LOOPZ_loc16_imm_16bit	Loop While Zero 
+LPADDR	Set the AMODE Bit
+LRET	Long Return
+LRETE	Long Return and Enable Interrupts 
+LRETR	Long Return Using RPC 
+LSL_ACC_imm_1_16	Logical Shift Left 
+LSL_ACC_T	Logical Shift Left by T(3:0) 
+LSL_AX_imm_1_16	Logical Shift Left 
+LSL_AX_T	Logical Shift Left by T(3:0) 
+LSL64_ACC_colon_P_imm_1_16	Logical Shift Left 
+LSL64_ACC_colon_P_T	64Bit Logical Shift Left by T(5:0) 
+LSLL_ACC_T	Logical Shift Left by T (4:0)
+LSR_AX_imm_1_16	Logical Shift Right 
+LSR_AX_T	Logical Shift Right by T(3:0) 
+LSR64_ACC_colon_P_imm_1_16	64Bit Logical Shift Right 
+LSR64_ACC_colon_P_T	64Bit Logical Shift Right by T(5:0) 
+LSRL_ACC_T	Logical Shift Right by T (4:0) 
+MAC_P_loc16_0_colon_pma	Multiply and Accumulate 
+MAC_P_loc16_pointer_XAR7_slash_plus_plus	Multiply and Accumulate 
+MAX_AX_loc16	Find the Maximum
+MAXCUL_P_loc32	Conditionally Find the Unsigned Maximum 
+MAXL_ACC_loc32	Find the 32bit Maximum 
+MIN_AX_loc16	Find the Minimum 
+MINCUL_P_loc32	Conditionally Find the Unsigned Minimum 
+MINL_ACC_loc32	Find the 32bit Minimum
+MOV_pointer_index_0_colon_16bit_loc16	Move Value
+MOV_ACC_imm_16bit_leftshift_imm_0_15	Load Accumulator With Shift
+MOV_ACC_loc16_leftshift_T	Load Accumulator With Shift 
+MOV_ACC_loc16_leftshift_imm_0_16	Load Accumulator With Shift
+MOV_AR6_slash_7_loc16	Load Auxiliary Register 
+MOV_AX_loc16	Load AX 
+MOV_DP_imm_10bit	Load DataPage Pointer
+MOV_IER_loc16	Load the InterruptEnable Register 
+MOV_loc16_imm_16bit	Save 16bit Constant 
+MOV_loc16_pointer_index_0_colon_16bit	Move Value
+MOV_loc16_imm_0	Clear 16bit Location 
+MOV_loc16_ACC_leftshift_1_8	Save Low Word of Shifted Accumulator 
+MOV_loc16_ARn	Store 16bit Auxiliary Register 
+MOV_loc16_AX	Store AX
+MOV_loc16_AX_COND	Store AX Register Conditionally 
+MOV_loc16_IER	Store InterruptEnable Register 
+MOV_loc16_OVC	Store the Overflow Counter
+MOV_loc16_P	Store Lower Half of Shifted P Register
+MOV_loc16_T	Store the T Register
+MOV_OVC_loc16	Load the Overflow Counter 
+MOV_PH_loc16	Load the High Half of the P Register 
+MOV_PL_loc16	Load the Low Half of the P Register 
+MOV_PM_AX	Load Product Shift Mode
+MOV_T_loc16	Load the Upper Half of the XT Register
+MOV_TL_imm_0	Clear the Lower Half of the XT Register
+MOV_XARn_PC	Save the Current Program Counter 
+MOVA_T_loc16	Load T Register and Add Previous Product 
+MOVAD_T_loc16	Load T Register
+MOVB_ACC_imm_8bit	Load Accumulator With 8bit Value 
+MOVB_AR6_slash_7_imm_8bit	Load Auxiliary Register With an 8bit Constant 
+MOVB_AX_imm_8bit	Load AX With 8bit Constant 
+MOVB_AX_LSB_loc16	Load Byte Value
+MOVB_AX_MSB_loc16	Load Byte Value 
+MOVB_loc16_imm_8bit_COND	Conditionally Save 8bit Constant 
+MOVB_loc16_AX_LSB	Store LSB of AX Register 
+MOVB_loc16_AX_MSB	Store MSB of AX Register
+MOVB_XARn_imm_8bit	Load Auxiliary Register With 8bit Value 
+MOVDL_XT_loc32	Store XT and Load New XT 
+MOVH_loc16_ACC_leftshift_1_8	Description
+MOVH_loc16_P	Save High Word of the P Register 
+MOVL_ACC_loc32	Load Accumulator With 32 Bits
+MOVL_ACC_P_leftshift_PM	Load the Accumulator With Shifted P
+MOVL_loc32_ACC	Store 32bit Accumulator 
+MOVL_loc32_ACC_COND	Conditionally Store the Accumulator 
+MOVL_loc32_P	Store the P Register 
+MOVL_loc32_XARn	Store 32bit Auxiliary Register
+MOVL_loc32_XT	Store the XT Register 
+MOVL_P_ACC	Load P From the Accumulator
+MOVL_P_loc32	Load the P Register
+MOVL_XARn_loc32	Load 32bit Auxiliary Register 
+MOVL_XARn_imm_22bit	Load 32bit Auxiliary Register With Constant Value
+MOVL_XT_loc32	Load the XT Register
+MOVP_T_loc16	Load the T Register and Store P in the Accumulator
+MOVS_T_loc16	Load T and Subtract P From the Accumulator 
+MOVU_ACC_loc16	Load Accumulator With Unsigned Word 
+MOVU_loc16_OVC	Store the Unsigned Overflow Counter 
+MOVU_OVC_loc16	Load Overflow Counter With Unsigned Value
+MOVW_DP_imm_16bit	Load the Entire Data Page 
+MOVX_TL_loc16	Load Lower Half of XT With Sign Extension 
+MOVZ_ARn_loc16	Load Lower Half of XARn and Clear Upper Half 
+MOVZ_DP_imm_10bit	Load Data Page and Clear High Bits 
+MPY_ACC_loc16_imm_16bit	16 X 16bit Multiply 
+MPY_ACC_T_loc16	16 X 16bit Multiply
+MPY_P_loc16_imm_16bit	16 X 16Bit Multiply 
+MPY_P_T_loc16	16 X 16 Multiply 
+MPYA_P_loc16_imm_16bit	16 X 16Bit Multiply and Add Previous Product
+MPYA_P_T_loc16	16 X 16bit Multiply and Add Previous Product 
+MPYB_ACC_T_imm_8bit	Multiply by 8bit Constant
+MPYB_P_T_imm_8bit	Multiply Signed Value by Unsigned 8bit Constant 
+MPYS_P_T_loc16	16 X 16bit Multiply and Subtract 
+MPYU_P_T_loc16	Unsigned 16 X 16 Multiply 
+MPYU_ACC_T_loc16	16 X 16bit Unsigned Multiply 
+MPYXU_ACC_T_loc16	Multiply Signed Value by Unsigned Value 
+MPYXU_P_T_loc16	Multiply Signed Value by Unsigned Value 
+NASP	Unalign Stack Pointer 
+NEG_ACC	Negate Accumulator 
+NEG_AX	Negate AX Register
+NEG64_ACC_colon_P	Negate Accumulator Register and Product Register 
+NEGTC_ACC	If TC is Equivalent to 1, Negate ACC
+NOP_optional_pointer_ind_optional_ARPn	No Operation With Optional Indirect Address Modification 
+NORM_ACC_pointer_ind	Normalize ACC and Modify Selected Auxiliary Register 
+NORM_ACC_XARn_plus_plus_slash	Normalize ACC and Modify Selected Auxiliary Register 
+NOT_ACC	Complement Accumulator 
+NOT_AX	Complement AX Register 
+OR_ACC_loc16	Bitwise OR 
+OR_ACC_imm_16bit_leftshift_imm_0_16	Bitwise OR
+OR_AX_loc16	Bitwise OR 
+OR_IER_imm_16bit	Bitwise OR
+OR_IFR_imm_16bit	Bitwise OR
+OR_loc16_imm_16bit	Bitwise OR 
+OR_loc16_AX	Bitwise OR 
+ORB_AX_imm_8bit	Bitwise OR 8bit Value 
+OUT_pointer_index_PA_loc16	Output Data to Port
+POP_ACC	Pop Top of Stack to Accumulator
+POP_ARn_colon_ARm	Pop Top of Stack to 16bit Auxiliary Registers 
+POP_AR1H_colon_AR0H	Pop Top of Stack to Upper Half of Auxiliary Registers 
+POP_DBGIER	Pop Top of Stack to DBGIER
+POP_DP	Pop Top of Stack to the Data Page 
+POP_DP_colon_ST1	Pop Top of Stack to DP and ST1 
+POP_IFR	Pop Top of Stack to IFR 
+POP_loc16	Pop Top of Stack
+POP_P	Pop top of Stack to P
+POP_RPC	Pop RPC Register From Stack 
+POP_ST0	Pop Top of Stack to ST0
+POP_ST1	Pop Top of Stack to ST1
+POP_T_colon_ST0	Pop Top of Stack to T and ST0 
+POP_XARn	Pop Top of Stack to 32bit Auxiliary Register
+POP_XT	Pop Top of Stack to XT 
+PREAD_loc16_pointer_XAR7	Read From Program Memory 
+PUSH_ACC	Push Accumulator Onto Stack
+PUSH_ARn_colon_ARm	Push 16bit Auxiliary REgisters Onto Stack 
+PUSH_AR1H_colon_AR0H	Push AR1H and Ar0H Registers on Stack 
+PUSH_DBGIER	Push DBGIER Register Onto Stack
+PUSH_DP	Push DP Register Onto Stack 
+PUSH_DP_colon_ST1	Push DP and ST1 Onto Stack 
+PUSH_IFR	Push IFR Onto Stack
+PUSH_loc16	Push 16bit Value on Stack 
+PUSH_P	Push P Onto Stack
+PUSH_RPC	Push RPC Onto Stack 
+PUSH_ST0	Push ST0 Onto Stack
+PUSH_ST1	Push ST1 Onto Stack
+PUSH_T_colon_ST0	Push T and ST0 Onto Stack 
+PUSH_XARn	Push 32bit Auxiliary Register Onto Stack 
+PUSH_XT	Push XT Onto Stack
+PWRITE_pointer_XAR7_loc16	Write to Program Memory
+QMACL_P_loc32_pointer_XAR7_slash_plus_plus	Signed 32 X 32bit Multiply and Accumulate (Upper Half)
+QMPYAL_P_XT_loc32	Signed 32bit Multiply (Upper Half) and Add Previous P
+QMPYL_P_XT_loc32	Signed 32 X 32bit Multiply (Upper Half) 
+QMPYL_ACC_XT_loc32	Signed 32 X 32bit Multiply (Upper Half) 
+QMPYSL_P_XT_loc32	Signed 32bit Multiply (Upper Half) and Subtract Previous P
+QMPYUL_P_XT_loc32	Unsigned 32 X 32bit Multiply (Upper Half) 
+QMPYXUL_P_XT_loc32	Signed X Unsigned 32bit Multiply (Upper Half) 
+ROL_ACC	Rotate Accumulator Left 
+ROR_ACC	Rotate Accumulator Right 
+RPT_imm_8bit_slash_loc16	Repeat Next Instruction 
+SAT_ACC	Saturate Accumulator
+SAT64_ACC_colon_P	Saturate 64bit Value ACC:P
+SB_8bitOffset_COND	Need description here
+SBBU_ACC_loc16	Subtract Unsigned Value Plus Inverse Borrow 
+SBF_8bitOffset_EQ_slash_NEQ_slash_TC_slash_NTC	Short Branch Fast 
+SBRK_imm_8bit	Subtract From Current Auxiliary Register 
+SETC_Mode	Set Multiple Status Bits 
+SETC_M0M1MAP	Set the M0M1MAP Status Bit 
+SETC_Objmode	Set the Objmode Status Bit 
+SETC_XF	Set XF Bit and Output Signal
+SFR_ACC_imm_1_16	Shift Accumulator Right 
+SFR_ACC_T	Shift Accumulator Right 
+SPM_shift	Set Product Mode Shift Bits 
+SQRA_loc16	Square Value and Add P to ACC
+SQRS_loc16	Square Value and Subtract P From ACC
+SUB_ACC_loc16_leftshift_imm_0_16	Subtract Shifted Value From Accumulator
+SUB_ACC_loc16_leftshift_T	Subtract Shifted Value From Accumulator
+SUB_ACC_imm_16bit_leftshift_imm_0_15	Subtract Shifted Value From Accumulator 
+SUB_AX_loc16	Subtract Specified Location From AX
+SUB_loc16_AX	ReverseSubtract Specified Location From AX
+SUBB_ACC_imm_8bit	Subtract 8bit Value
+SUBB_SP_imm_7bit	Subtract 7bit Value 
+SUBB_XARn_imm_7bit	Subtract 7Bit From Auxiliary Register
+SUBBL_ACC_loc32	Subtract 32bit Value Plus Inverse Borrow 
+SUBCU_ACC_loc16	Subtract Conditional 16 Bits
+SUBCUL_ACC_loc32	Subtract Conditional 32 Bits 
+SUBL_ACC_loc32	Subtract 32bit Value 
+SUBL_ACC_P_leftshift_PM	Subtract 32bit Value 
+SUBL_loc32_ACC	Subtract 32bit Value 
+SUBR_loc16_AX	ReverseSubtract Specified Location From AX
+SUBRL_loc32_ACC	ReverseSubtract Specified Location From ACC 
+SUBU_ACC_loc16	Subtract Unsigned 16bit Value
+SUBUL_ACC_loc32	Subtract Unsigned 32bit Value 
+SUBUL_P_loc32	Subtract Unsigned 32bit Value
+TBIT_loc16_imm_bit	Test Specified Bit
+TBIT_loc16_T	Test Bit Specified by Register 
+TCLR_loc16_imm_bit	Test and Clear Specified Bit
+TEST_ACC	Test for Accumulator Equal to Zero 
+TRAP_imm_VectorNumber	Software Trap
+TSET_loc16_imm_16bit	Test and Set Specified Bit 
+UOUT_pointer_index_PA_loc16	Unprotected Output Data to I/O Port 
+XB_pointer_AL	C2 xLP SourceCompatible Indirect Branch
+XB_pma_pointer_ARPn	C2xLP SourceCompatible Branch with ARP Modification 
+XB_pma_COND	C2 xLP SourceCompatible Branch 
+XBANZ_pma_pointer_ind_optional_ARPn	C2 x LP SourceCompatible Branch If ARn Is Not Zero
+XCALL_pointer_AL	C2 x LP SourceCompatible Function Call 
+XCALL_pma_pointer_ARPn	C2 x LP SourceCompatible Function Call 
+XCALL_pma_COND	C2xLP SourceCompatible Function Call 
+XMAC_P_loc16_pointer_index_pma	C2xLP Sourcecompatible Multiply and Accumulate 
+XMACD_P_loc16_pointer_index_pma	C2xLP SourceCompatible Multiply and Accumulate With Data Move 
+XOR_ACC_loc16	Bitwise Exclusive OR 
+XOR_ACC_imm_16bit_leftshift_imm_0_16	Bitwise Exclusive OR
+XOR_AX_loc16	Bitwise Exclusive OR 
+XOR_loc16_AX	Bitwise Exclusive OR 
+XOR_loc16_imm_16bit	Bitwise Exclusive OR 
+XORB_AX_imm_8bit	Bitwise Exclusive OR 8bit Value 
+XPREAD_loc16_pointer_index_pma	C2xLP SourceCompatible Program Read
+XPREAD_loc16_pointer_AL	C2xLP SourceCompatible Program Read 
+XPWRITE_pointer_A_loc16	C2xLP SourceCompatible Program Write 
+XRET	C2xLP SourceCompatible Return
+XRETC_COND	C2xLP SourceCompatible Conditional Return
+ZALR_ACC_loc16	Zero AL and Load AH With Rounding
+ZAP_OVC	Clear Overflow Counter
+ZAPA	Zero Accumulator and P Register 
