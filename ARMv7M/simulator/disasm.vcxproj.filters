@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{bde1e2b3-f47f-48be-906a-086afe41d745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{528ff4c7-959d-47e6-b6a0-f1d1113ac565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\coprocessor">
+      <UniqueIdentifier>{6fa41c1d-3df4-419d-b506-65b158a0b344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\apb">
+      <UniqueIdentifier>{d4b279ea-560f-42a1-b1e7-2f110da0614e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ahb">
+      <UniqueIdentifier>{98d9e635-96f7-4ea4-8fc6-5198a2f9a20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\exception">
+      <UniqueIdentifier>{7e873910-f7ce-4d16-af49-0d357d230faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\alu">
+      <UniqueIdentifier>{3cf59b08-e8a0-4727-b1f3-b4547656fab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\bus">
+      <UniqueIdentifier>{87b63548-0e2d-4473-a247-7174f00320d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\regfile">
+      <UniqueIdentifier>{25a6eff6-8033-4b2b-a235-65f349d90797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\cache">
+      <UniqueIdentifier>{6ba42129-4a0a-403e-ac83-aad6558410e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\branch_prediction">
+      <UniqueIdentifier>{053c5228-3e71-44c4-a672-c00f29706784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs">
+      <UniqueIdentifier>{dc84e816-c69f-49c1-b200-ee3efe0e9295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\systick">
+      <UniqueIdentifier>{58ca4e0f-9c0f-4599-b15c-f1621d61a054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\nvic">
+      <UniqueIdentifier>{88b263f0-5a89-4807-9c24-aad587b4d96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\scb">
+      <UniqueIdentifier>{57b2e1de-f080-41a6-8d49-bc351f1c58ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\cpuid_scheme">
+      <UniqueIdentifier>{0f70daa7-4e1a-4340-bba6-ff5ce409931f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\mpu_PMSAv7">
+      <UniqueIdentifier>{2e2829ca-1486-4347-807f-20ee66dde664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug">
+      <UniqueIdentifier>{705e5466-49d4-413a-9c45-4ba00575bd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug\itm">
+      <UniqueIdentifier>{12567cee-e8b4-49dc-a226-48edb5794619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug\dwt">
+      <UniqueIdentifier>{cbb44bda-80c7-4ea8-a7d5-b036beb29d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug\fpb">
+      <UniqueIdentifier>{bb243a63-35b7-40a9-9f60-af56dd0b2a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug\etm">
+      <UniqueIdentifier>{f53d8ec9-6540-4f45-9ac7-055897c26302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug\tpiu">
+      <UniqueIdentifier>{d65bfdd0-b2bd-4b7f-8d60-fbd528846351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\scb\dcb">
+      <UniqueIdentifier>{1c73f0a8-f170-43d7-b6bb-51ffb1995edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ppb_scs\debug\rom_table">
+      <UniqueIdentifier>{c14a0bde-5f62-4d10-bc76-1162a43f98c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\fpu">
+      <UniqueIdentifier>{469f06e0-6a3d-4e66-b483-ee0e180463ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\core.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ISA_Array.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\pipeline.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\pseudo.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\adc.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\add.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\adr.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\and.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\asr.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\b.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\bic.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\bkpt.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\blx.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\bx.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\cbnz.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\cmn.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\cmp.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\cps.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\eor.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\it.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ldm.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ldr.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ldrb.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ldrh.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ldrsb.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ldrsh.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\lsl.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\lsr.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\mov.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\mul.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\mvn.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\nop.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\orr.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\pop.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\push.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\rev.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\rev16.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\revsh.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\ror.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\rsb.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\sbc.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\sev.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\stm.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\str.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\strb.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\strh.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\sub.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\svc.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\sxtb.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\sxth.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\tst.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\uxtb.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\uxth.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\wfe.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\wfi.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\ALU\yield.cpp">
+      <Filter>Source Files\core\alu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\BUS\memory.cpp">
+      <Filter>Source Files\core\bus</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\REGFILE\registers.cpp">
+      <Filter>Source Files\core\regfile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ip\ip_ram.cpp">
+      <Filter>Source Files\ahb</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ip\ip_rom.cpp">
+      <Filter>Source Files\ahb</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ip\systick.cpp">
+      <Filter>Source Files\ppb_scs\systick</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ip\nvic.cpp">
+      <Filter>Source Files\ppb_scs\nvic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\README.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Source\core\BUS\README.txt">
+      <Filter>Source Files\core\bus</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\include\bitops.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\const.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\core.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\isa.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\memory.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\types.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\common.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\pseudo.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\BUS\config.h">
+      <Filter>Source Files\core\bus</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ip\nvic.h">
+      <Filter>Source Files\ppb_scs\nvic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\core\ALU\Gen_ISA_File.py">
+      <Filter>Source Files\core\alu</Filter>
+    </None>
+  </ItemGroup>
+</Project>

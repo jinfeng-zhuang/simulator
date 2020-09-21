@@ -1,0 +1,150 @@
+00xxxxxxxxxxxxxx {
+
+	00000xxxxxxxxxxx: LSL
+	00001xxxxxxxxxxx: LSR
+	00010xxxxxxxxxxx: ASR
+	0001100xxxxxxxxx: ADD
+	0001101xxxxxxxxx: SUB
+	0001110xxxxxxxxx: ADD
+	0001111xxxxxxxxx: SUB
+	00100xxxxxxxxxxx: MOV
+	00101xxxxxxxxxxx: CMP
+	00110xxxxxxxxxxx: ADD
+	00111xxxxxxxxxxx: SUB
+}
+
+010000xxxxxxxxxx {
+
+	0100000000xxxxxx: AND
+	0100000001xxxxxx: EOR
+	0100000010xxxxxx: LSL
+	0100000011xxxxxx: LSR
+	0100000100xxxxxx: ASR
+	0100000101xxxxxx: ADC
+	0100000110xxxxxx: SBC
+	0100000111xxxxxx: ROR
+	0100001000xxxxxx: TST
+	0100001001xxxxxx: RSB
+	0100001010xxxxxx: CMP
+	0100001011xxxxxx: CMN
+	0100001100xxxxxx: ORR
+	0100001101xxxxxx: MUL
+	0100001110xxxxxx: BIC
+	0100001111xxxxxx: MVN
+}
+
+010001xxxxxxxxxx {
+
+	01000100xxxxxxxx: ADD
+	0100010100xxxxxx: UNPREDICTABLE
+	0100010101xxxxxx: CMP
+	010001011xxxxxxx: CMP
+	01000110xxxxxxxx: MOV
+	010001110xxxxxxx: BX
+	010001111xxxxxxx: BLX
+}
+
+01001xxxxxxxxxxx: LDR
+
+0101xxxxxxxxxxxx {
+
+	0101000xxxxxxxxx: STR
+	0101001xxxxxxxxx: STRH
+	0101010xxxxxxxxx: STRB
+	0101011xxxxxxxxx: LDRSB
+	0101100xxxxxxxxx: LDR
+	0101101xxxxxxxxx: LDRH
+	0101110xxxxxxxxx: LDRB
+	0101111xxxxxxxxx: LDRSH
+}
+
+011xxxxxxxxxxxxx {
+
+	01100xxxxxxxxxxx: STR
+	01101xxxxxxxxxxx: LDR
+	01110xxxxxxxxxxx: STRB
+	01111xxxxxxxxxxx: LDRB
+}
+
+100xxxxxxxxxxxxx {
+
+	10000xxxxxxxxxxx: STRH
+	10001xxxxxxxxxxx: LDRH
+	10010xxxxxxxxxxx: STR
+	10011xxxxxxxxxxx: LDR
+}
+
+10100xxxxxxxxxxx: ADR
+
+10101xxxxxxxxxxx: ADD
+
+1011xxxxxxxxxxxx {
+
+	10110110011xxxxx: CPS
+	101100000xxxxxxx: ADD
+	101100001xxxxxxx: SUB
+	10110001xxxxxxxx: CBNZ
+	1011001000xxxxxx: SXTH
+	1011001001xxxxxx: SXTB
+	1011001010xxxxxx: UXTH
+	1011001011xxxxxx: UXTB
+	10110011xxxxxxxx: CBNZ
+	1011010xxxxxxxxx: PUSH
+	10111001xxxxxxxx: CBNZ
+	1011101000xxxxxx: REV
+	1011101001xxxxxx: REV16
+	1011101011xxxxxx: REVSH
+	10111011xxxxxxxx: CBNZ
+	1011110xxxxxxxxx: POP
+	10111110xxxxxxxx: BKPT
+
+	10111111xxxxxxxx {
+
+		10111111xxxx0001: IT
+		10111111xxxx0010: IT
+		10111111xxxx0011: IT
+		10111111xxxx0100: IT
+		10111111xxxx0101: IT
+		10111111xxxx0110: IT
+		10111111xxxx0111: IT
+		10111111xxxx1000: IT
+		10111111xxxx1001: IT
+		10111111xxxx1010: IT
+		10111111xxxx1011: IT
+		10111111xxxx1100: IT
+		10111111xxxx1101: IT
+		10111111xxxx1110: IT
+		10111111xxxx1111: IT
+		1011111100000000: NOP
+		1011111100010000: YIELD
+		1011111100100000: WFE
+		1011111100110000: WFI
+		1011111101000000: SEV
+	}
+}
+
+11000xxxxxxxxxxx: STM
+
+11001xxxxxxxxxxx: LDM
+
+1101xxxxxxxxxxxx {
+
+	11010000xxxxxxxx: B
+	11010001xxxxxxxx: B
+	11010010xxxxxxxx: B
+	11010011xxxxxxxx: B
+	11010100xxxxxxxx: B
+	11010101xxxxxxxx: B
+	11010110xxxxxxxx: B
+	11010111xxxxxxxx: B
+	11011000xxxxxxxx: B
+	11011001xxxxxxxx: B
+	11011010xxxxxxxx: B
+	11011011xxxxxxxx: B
+	11011100xxxxxxxx: B
+	11011101xxxxxxxx: B
+	11011110xxxxxxxx: UNDEFINED
+	11011111xxxxxxxx: SVC
+}
+
+11100xxxxxxxxxxx: B
